@@ -137,8 +137,8 @@ edit_menu.add_command(label="copy", command=copy_file)
 edit_menu.add_command(label="pest", command=paste_file)
 
 help_menu = Menu(menu_bar, tearoff=0)
-menu_bar.add_cascade(label="Help", menu=help_menu)
-help_menu.add_command(label="About", command=about_file)
+menu_bar.add_cascade(label="help", menu=help_menu)
+help_menu.add_command(label="about", command=about_file)
 
 
 window.mainloop()
